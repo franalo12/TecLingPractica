@@ -1,0 +1,38 @@
+# Datos y datasets pesados
+data/
+*.csv
+*.parquet
+*.pkl
+*.npy
+*.npz
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Entornos virtuales de Python
+.venv/
+venv/
+env/
+ENV/
+
+# Caché de Python y Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Modelos y cachés de HuggingFace / Torch
+models/
+checkpoints/
+cache/
+embeddings/
+lightning_logs/
+wandb/
+
+# Archivos de sistema e IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
